@@ -32,51 +32,75 @@
         <div id="gallery">
             <section>
                 <img src="images/Chile.png" alt="">
-                <p>Chile, 2001</p>
+                <div class="white bottom">
+                    <span>Chile, 2001</span>
+                </div>
             </section>
             <section>
                 <img src="images/Guatemala.png" alt="">
-                <p>Guatemala, 1997</p>
+                <div class="top white">
+                    <span>Guatemala, 1997</span>
+                </div>
             </section>
             <section>
                 <img src="images/Hawaii.png" alt="">
-                <p>Hawaii, 2010</p>
+                <div class="bottom white">
+                    <span>Hawaii, 2010</span>
+                </div>
             </section>
             <section>
                 <img src="images/Iran.png" alt="">
-                <p>Iran, 1999</p>
+                <div class="top">
+                    <span>Iran, 1999</span>
+                </div>
             </section>
             <section>
                 <img src="images/Ireland.png" alt="">
-                <p>Ireland, 2012</p>
+                <div class="top">
+                    <span>Ireland, 2012</span>
+                </div>
             </section>
             <section>
                 <img src="images/Italy.png" alt="">
-                <p>Italy, 2015</p>
+                <div class="bottom">
+                    <span>Italy, 2015</span>
+                </div>
             </section>
             <section>
                 <img src="images/Moab-Desert.png" alt="">
-                Moab Desert, 2020
+                <div class="bottom white">
+                    <span>Moab Desert, 2020</span>
+                </div>
             </section>
             <section>
                 <img src="images/Rocky-Mountains.png" alt="">
-                <p>Rocky Mountains, 2009</p>
+                <div class="top">
+                    <span>Rocky Mountains, 2009</span>
+                </div>
             </section>
             <section>
                 <img src="images/Switzerland.png" alt="">
-                <p>Switzerland, 2014</p>
+                <div class="top">
+                    <span>Switzerland, 2014</span>
+                </div>
             </section>
             <section>
                 <img src="images/UK.png" alt="">
-                <p>UK, 2005</p>
+                <div class="top">
+                    <span>UK, 2005</span>
+                </div>
             </section>
             <section>
                 <img src="images/USA.png" alt="">
-                <p>USA, 2021</p>
+                <div class="top">
+                    <span>USA, 2021</span>
+                </div>
             </section>
             <section>
                 <img src="images/Wyoming.png" alt="">
-                <p>Wyoming, 2021</p>
+                <div class="top white">
+                    <span>Wyoming, 2021</span>
+                </div>
             </section>
         </div>
     </section>
@@ -86,12 +110,18 @@
 
         <p id="yourInfo">Your contact information</p>
         <form>
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" placeholder="(Your full name)"><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" placeholder="(Enter your email address)"><br>
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message"> (What can I help you with?)</textarea>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="1" placeholder="What can I help you with?"></textarea>
+            </div>
 
             <input type="submit" value="Submit">
         </form>
